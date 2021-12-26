@@ -8,7 +8,11 @@ public class SnakeandLadder {
 
     //    function to initialize the number of players
     static void numberOfPlayers(){
-//        setting the player's start position to 0
+    //        setting the player's start position to 0
         int playerOnePosition = 0;
         playGame(playerOnePosition);
+    }
+    static void playGame(int playerOnePosition) {
+        Random random = new Random();
+        int dieRoll = random.nextInt(1, 7);
     }
